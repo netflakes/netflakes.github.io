@@ -1,12 +1,12 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# Back-end Programming Languages & Frameworks
+- skill: Back-end Programming Languages & Frameworks
+  description: Elixir, OTP, Phoenix, Ruby, Rails, C#, .NET, Java.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+# Front-end Programming Languages & Frameworks
+- skill: Front-end Programming Languages & Frameworks
+  description: Javascript, React, VueJS, CSS, HTML
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+# Operating Systems and Networks
+- skill: Operating Systems and Networks
+  description: OSX, Linux (Debian & Ubuntu), FreeBSD, Windows Server 2008/2010/2012, Xen (XCP-ng), VM-ware, smtp, dns, http, tcp/ip

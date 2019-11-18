@@ -1,5 +1,5 @@
 # links
-- url: "#"
-  description: Springfield Jazz Enthusiasts
-- url: "#"
-  description: Springfield Young Professionals
+- url: "http://steveforkin.org/"
+  description: My personal blog - built with VueJS, Elixir - serving markdown posts stored in Dropbox
+- url: "http://thegospel.page/"
+  description: Another project page - built with VueJS

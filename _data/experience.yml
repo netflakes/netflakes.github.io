@@ -1,19 +1,116 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Netflakes / Bay4
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: Itsfound, Sydney
+  position: Senior Developer
+  duration: April, 2019 &mdash; Present
+  summary: During 2019 I have been working for Itsfound in Sydney
+    helping them extend the functionality of the Elixir/Phoenix
+    application. Considering the growing complexity we shifted the
+    application to an Umbrella, and have been working extracting and
+    refactoring the codebase to into smaller more manageable otp
+    applications. The front end also has a number of complex Vue JS
+    components..<ul class="resume-item-list"><li><a href="https://www.itsfound.com.au">Itsfound</a></li></ul>
 
+# Senior developer
+- company: Netflakes / Bay4
+  position: Senior Developer
+  duration: Jan 2018, &mdash; Feb 2019
+  summary: During 2018 I was contracted out to build an online learning
+    solution in the health sector. Having previously being using
+    Elixir on a number of different smaller projects gave me the
+    confidence to use it on this LMS project. The backend made use
+    of GraphQL for the API and also some channels for instance
+    updates to the front end. The front end is a mix of standard
+    Phoenix templates and plain vanilla javascript mixed in as well
+    as React. The course builder and runner tools are quite complex
+    and React was used for the entire UI including React router. My
+    role in regards to the front end was to prove the concepts could
+    work using React before handing the front end over to other
+    remote developers. I love the productivity of the Elixir &
+    Phoenix stack and in particular the functional paradigm. It
+    enables the breakdown of components into fine grained pieces
+    that are re-usable in ways that are far more difficult to
+    achieve in an OO environment. I am a polyglot programmer who
+    loves learning new programming-languages. I have worked with
+    C#/.NET for four years. I have kept my Java skills up-to-date
+    with the exposure to Amazon Lambda and have thoroughly enjoyed
+    adding, Ruby & Elixir to my skill set. Whilst I am predominantly
+    a back-end programmer, I have done a fair amount of work in the
+    front-end of the most recent project and this is all in React. I
+    have been surprised how elegant and easy it was to pick up
+    React.<ul class="resume-item-list"><li><a href="https://courses.nvc-lms.com/login">NVC - Nambucca Valley Care - Learning</a></li></ul>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# Senior Developer
+- company: Scout Recruitment, Brisbane
+  position: Senior Developer, Team Lead
+  duration: Jun, 2015  &mdash; Nov, 2017
+  summary: For these two years I worked in the recruitment industry
+    building a green-field talent management system in Ruby and
+    Rails. I was the tech-lead for s small team of 3 developers
+    and two test and support staff. I enjoyed being responsible
+    for code review and using my keenness for teaching good code
+    and design practices. My passion for TDD has seen me
+    completely overhaul their testing processes and write a
+    suite of integration and functional tests. The application
+    also uses Information Retrieval to scan, tokenise and index
+    all resume content and deploy as a REST API on AWS to the
+    rest of the application. This enabled us to make the data
+    available to a broader suite of existing recruitment
+    applications. Some of the micro services in the back end
+    were developed using Elixir and OTP and integrated with
+    Rails via rest services.<br > We also needed to offload a lot of document conversion and
+    report rendering to external services. Due to the lack of
+    support for converting Microsoft document formats in Ruby,
+    we decided to use Aspose/Java and to integrate this well
+    with the current environment we moved all of this processing
+    off to AWS/Lambda i.e. document conversion to PDF, Scanning
+    all documents into page by page PNG images for preview &
+    large report processing. AWS/Lambda is charged by the
+    compute operation and this worked really well with our
+    current pricing model. Scout uploads documents & report
+    meta-data to AWS/S3. S3 triggers the AWS/Lambda task – and
+    finally once this is all completed an HTTP/post style
+    request is made back to Scout to make the application aware
+    of where it can collect the data.<ul class="resume-item-list"><li><a href="https://scouttalenthq.com/">Scout Talent/Recruitment</a></li></ul>
+
+# Senior Developer
+- company: Netflakes, CHC Pharmacy
+  position: Developer,
+  duration: Jun, 2014  &mdash; Jul, 2015
+  summary: The application architecture is micro service based, with a
+    main Rails framework based main application sitting in front
+    of five Rest based services that handle the bulk of the
+    business logic and data storage. Each service has it's own
+    unit test and functional test suite. The main app again has
+    its own unit and functional test suite that mocks out all
+    the service interaction. All the business logic has been
+    split out from the underlying framework and is tested
+    without the requirement to load the framework, which means
+    the unit test suites run in the order of seconds rather than
+    minutes.< br />Having a tight feedback loop really facilitates the
+    development process and the investment has paid off. We open
+    sourced the multi-tenancy framework on github to give
+    something back, which was a great experience.
+
+# Senior Developer
+- company: Janison, Coffs Harbour
+  position: Developer, IT Manager
+  duration: Jun, 2007  &mdash; Jul, 2014
+  summary: Janison was a small 6 people startup in the .NET and online
+    learning space here in Coffs Harbour when I first joined.
+    All my previous work had been in the Java world and this was
+    my first forray into the .NET world. I worked as a developer
+    and later senior developer at Janison for four years before
+    joining management and looking after the team of technicians
+    who managed their hosted services and local networks and
+    servers.<br />My previous home based networking skill in the FreeBSD world
+    were very helpful and formed a solid basis for all the
+    networking skills needed to run and develop Janison's hosted
+    operations. My role also included the transition to self
+    managed colocated server rack setups and finally the
+    transitioning of the hosted operations to Microsoft Azure.
+    Janison runs several Australia wide school assessment exams
+    that have upwards of 25,000 simultaneous sessions. This
+    provided a serious challenge to the hosted operations that
+    was finally best suited to the Azure cloud.<ul class="resume-item-list"><li><a href="https://www.janison.com/">Janison</a></li></ul>
